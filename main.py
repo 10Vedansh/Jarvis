@@ -35,7 +35,7 @@ def speak(text):
 
 # # def aiProcess(command):
 # #     client = OpenAI(
-# #   api_key= "sk-None-wRq0i2dWea2amPvevmwgT3BlbkFJjVCQtnAD6PL2ty4WA0dZ"
+# #   api_key= ""
 # # )
 # # completion = client.chat.completions.create(
 # #   model="gpt-3.5-turbo",
