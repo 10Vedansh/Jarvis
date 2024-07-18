@@ -4,7 +4,7 @@ from openai import OpenAI
 # defaults to getting the key using os.environ.get("OPENAI_API_KEY")
 # if you saved the key under a different environment variable name, you can do something like:
 client = OpenAI(
-  api_key= "sk-None-wRq0i2dWea2amPvevmwgT3BlbkFJjVCQtnAD6PL2ty4WA0dZ" #wont work as i dont have its subscription
+  api_key= "" #wont work as i dont have its subscription
 )
 completion = client.chat.completions.create(
   model="gpt-3.5-turbo",
